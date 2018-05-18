@@ -1,3 +1,3 @@
 <?php
 
-echo "Nice!";
+echo("Nice! Using Nginx Environment");
