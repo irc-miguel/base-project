@@ -31,7 +31,7 @@ services:
     image: mysql:5.7.20
     volumes:
       - "db_data:/var/lib/mysql"
-      #- "./mysql/initial_data:/docker-entrypoint-initdb.d"
+      - "./mysql/initial_data:/docker-entrypoint-initdb.d"
     ports:
       - "3306:3306"
     environment:
